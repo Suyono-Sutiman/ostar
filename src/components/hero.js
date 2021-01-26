@@ -7,11 +7,11 @@ const Hero = ({gambar, gede, kecil}) => (
         <Container>
             <Row className='align-items-center' style={{textAlign:'center'}}>
                 <Col xs='12' md={{order:'last', span:'6'}}>
-                    <Image src={gambar} fluid/>
+                    <Image src={gambar} fluid alt='hero' width='288px' height='354px'/>
                 </Col>
                 <Col style={{textAlign:'left'}}>
                     <h1 className='display-4'>{gede}</h1>
-                    <h5>{kecil}</h5>
+                    <p className='lead'>{kecil}</p>
                     <Tombol isi={'Pilih Paket'}/>
                 </Col>
             </Row>

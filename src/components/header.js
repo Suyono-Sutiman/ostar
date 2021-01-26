@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
       }}>
       <Container>
         <Link to='/'>
-      <Navbar.Brand style={{color:'#DD0000'}}>
+      <Navbar.Brand>
       <img
         alt="Ostar"
         src={logo}
@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
           
         </Nav>
         <Nav className='ml-auto'>
-        <Tombol isi={'Chat'}/>
+        <Tombol isi={'Kirim Pesan'}/>
         </Nav>
       </Navbar.Collapse>
       </Container>
