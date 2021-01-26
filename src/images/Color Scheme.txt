@@ -1,0 +1,10 @@
+Brand
+DD0000
+light
+88847F
+dark
+986E56
+white
+E6E5E2
+black
+141618
