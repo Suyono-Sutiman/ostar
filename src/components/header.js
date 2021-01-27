@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import {Container, Nav, Navbar} from 'react-bootstrap'
+import {Container, Image, Nav, Navbar} from 'react-bootstrap'
 import logo from '../images/Ostar.svg'
 import Tombol from "./tombol"
 
@@ -19,11 +19,9 @@ const Header = ({ siteTitle }) => (
       <Container>
         <Link to='/'>
       <Navbar.Brand>
-      <img
+      <Image
         alt="Ostar"
         src={logo}
-        width="30"
-        height="30"
         className="d-inline-block align-top"
       />{' '}
         {siteTitle}

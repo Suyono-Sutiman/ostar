@@ -14,12 +14,13 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-preact`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `ostar`,
+        short_name: `ostar`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
