@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Ostar`,
+    title: `O-star`,
     description: `Jasa pembuatan website dan marketing`,
     author: `@ostar`,
   },
@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ostar`,
+        name: `o-star`,
         short_name: `ostar`,
         start_url: `/`,
         background_color: `#663399`,

@@ -26,7 +26,7 @@ const Footer = () => (
             </Col>
         </Row>
         <p style={{textAlign:'center', marginBottom:'0'}}>
-            copyright @2021. <span>Ostar</span> All Rights Reserved
+            copyright @2021. <span>O-star</span> All Rights Reserved
         </p>
     </Container>
     </footer>
