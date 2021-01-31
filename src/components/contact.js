@@ -6,14 +6,14 @@ const Contact = () => (
         <Row>
             <Col xs='12' md={{span:'6', offset:'3'}}>
             <Form
-            className='rounded shadow' 
-            style={{textAlign:'center', backgroundColor:'#DD0000', padding:'1rem'}}>
-                <h2 style={{color:'#FFFFFF', textAlign:'center'}} >Siap kembangkan bisnis anda?</h2>
-                <Form.Control type='text' placeholder='Nama' aria-label='Nama'/>
+            className='rounded shadow text-center p-3' 
+            style={{backgroundColor:'#141618'}}>
+                <h2 className='h4 text-white'>Siap kembangkan bisnis anda?</h2>
+                <Form.Control type='text' placeholder='Nama' aria-label='Nama' required/>
                 <br/>
-                <Form.Control type='email' placeholder='Email' aria-label='Email'/>
+                <Form.Control type='email' placeholder='Email' aria-label='Email' required/>
                 <br/>
-                <Form.Control type='number' placeholder='Nomor Telepon' aria-label='Nomor Telepon'/>
+                <Form.Control type='number' placeholder='Nomor Telepon' aria-label='Nomor Telepon' required/>
                 <Button
                 className='border-white shadow'
                 style={{backgroundColor:'#DD0000', marginBottom:'-4rem'}}

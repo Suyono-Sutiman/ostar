@@ -1,15 +1,73 @@
 import React from 'react'
-import Grid from './grid'
+import web1 from '../images/real.webp'
+import web2 from '../images/foodshop.webp'
+import web3 from '../images/coffee.webp'
+import web4 from '../images/jjinterprice.webp'
+import web5 from '../images/donad.webp'
+import mar1 from '../images/kartu.webp'
+import mar2 from '../images/brosur.webp'
+import mar3 from '../images/logo1.webp'
+import mar4 from '../images/logo2.webp'
+import mar5 from '../images/flyer.webp'
+import { Card, CardColumns } from 'react-bootstrap'
+import { Link } from 'gatsby'
 
-const Sample = ()=>(
+const Sample = (prop)=>(
     <>
-        <h2 style={{color:'#DD0000'}} className='text-center'>Berikut beberapa hasil karya kami</h2>
-    <Grid xs='12' md='6'
-    tmb1='website'
-    tmb2='website'
-    tmb3='website'
-    tmb4='website'
-    />
+    <h2 style={{color:'#DD0000'}} className='text-center h4'>Berikut beberapa hasil karya kami</h2>
+    <CardColumns>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Card>
+                <Card.Img src={web1}/>
+            </Card>
+            </Link>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Card>
+                <Card.Img src={web2}/>
+            </Card>
+            </Link>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Card>
+                <Card.Img src={web3}/>
+            </Card>
+            </Link>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Card>
+                <Card.Img src={web4}/>
+            </Card>
+            </Link>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Card>
+                <Card.Img src={web5}/>
+            </Card>
+            </Link>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Card>
+                <Card.Img src={mar1}/>
+            </Card>
+            </Link>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Card>
+                <Card.Img src={mar2}/>
+            </Card>
+            </Link>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Card>
+                <Card.Img src={mar3}/>
+            </Card>
+            </Link>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Card>
+                <Card.Img src={mar4}/>
+            </Card>
+            </Link>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Card>
+                <Card.Img src={mar5}/>
+            </Card>
+            </Link>
+    </CardColumns>
+    
     </>
 )
 export default Sample;

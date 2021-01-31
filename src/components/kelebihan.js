@@ -2,7 +2,7 @@ import React from 'react'
 
 const Adva = (prop) => (
     <>
-        <h2 style={{color:prop.color}}  className='text-center'>Mengapa memilih kami</h2>
+        <h2 style={{color:prop.color}}  className='text-center h4 mt-3'>Mengapa memilih kami</h2>
             <p className={prop.p1}>
             Dengan keahlian dan pengetahuan kami, kami dapat membangun situs web berkualitas tinggi yang 
             menarik secara visual yang mendorong konversi untuk membantu mengembangkan bisnis Anda. Kami 

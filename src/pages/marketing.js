@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 
 const Marketing = () => (
   <Layout>
-    <SEO title="Marketing" description='Jasa pembuatan promosi dan marketing' />
+    <SEO title="Marketing" description='Jasa promosi dan marketing' />
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>

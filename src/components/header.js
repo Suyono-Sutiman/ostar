@@ -1,8 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import {Container, Image, Nav, Navbar} from 'react-bootstrap'
-import Tombol from "./tombol"
+import {Container, Image, Nav, Navbar, Button} from 'react-bootstrap'
 
 const Header = (prop) => {
   return(
@@ -48,9 +47,10 @@ const Header = (prop) => {
           </Link>
           </Nav.Item>
         </Nav>
-        <a href={'https://wa.me/62'+prop.phone} target='blank' className={prop.phone||'d-none'}>
-        <Tombol isi='Kirim Pesan'/>
-        </a>
+          <Button style={{backgroundColor:'#DD0000'}} variant='danger' href={'https://wa.me/62'+prop.phone} 
+          target='blank' className={prop.phone||'d-none'}>
+            Chatting
+          </Button>
       </Navbar.Collapse>
       </Container>
     </Navbar>
