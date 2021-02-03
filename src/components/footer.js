@@ -25,8 +25,8 @@ const Footer = () => (
                 <p>www.Ostar.my.id</p>
             </Col>
         </Row>
-        <p className='text-center mb-0 text-muted'>
-            copyright @2021. <span>O-star</span> All Rights Reserved
+        <p className='text-center mb-0'>
+            copyright @2021. O-star. All Rights Reserved
         </p>
     </Container>
     </footer>

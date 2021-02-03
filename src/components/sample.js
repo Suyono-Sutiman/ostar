@@ -16,54 +16,54 @@ const Sample = (prop)=>(
     <>
     <h2 style={{color:'#DD0000'}} className='text-center h4'>Berikut beberapa hasil karya kami</h2>
     <CardColumns>
-            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'} ariaLabel={prop.link1}>
             <Card>
-                <Card.Img src={web1}/>
+                <Card.Img alt={prop.link1} src={web1}/>
             </Card>
             </Link>
-            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'} ariaLabel={prop.link1}>
             <Card>
-                <Card.Img src={web2}/>
+                <Card.Img alt={prop.link1} src={web2}/>
             </Card>
             </Link>
-            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'} ariaLabel={prop.link1}>
             <Card>
-                <Card.Img src={web3}/>
+                <Card.Img alt={prop.link1} src={web3}/>
             </Card>
             </Link>
-            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'} ariaLabel={prop.link1}>
             <Card>
-                <Card.Img src={web4}/>
+                <Card.Img alt={prop.link1} src={web4}/>
             </Card>
             </Link>
-            <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
+            <Link to={'/'+prop.link1} className={prop.link1||'d-none'} ariaLabel={prop.link1}>
             <Card>
-                <Card.Img src={web5}/>
+                <Card.Img alt={prop.link1} src={web5}/>
             </Card>
             </Link>
-            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'} ariaLabel={prop.link2}>
             <Card>
-                <Card.Img src={mar1}/>
+                <Card.Img alt={prop.link2} src={mar1}/>
             </Card>
             </Link>
-            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'} ariaLabel={prop.link2}>
             <Card>
-                <Card.Img src={mar2}/>
+                <Card.Img alt={prop.link2} src={mar2}/>
             </Card>
             </Link>
-            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'} ariaLabel={prop.link2}>
             <Card>
-                <Card.Img src={mar3}/>
+                <Card.Img alt={prop.link2} src={mar3}/>
             </Card>
             </Link>
-            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'} ariaLabel={prop.link2}>
             <Card>
-                <Card.Img src={mar4}/>
+                <Card.Img alt={prop.link2} src={mar4}/>
             </Card>
             </Link>
-            <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
+            <Link to={'/'+prop.link2} className={prop.link2||'d-none'} ariaLabel={prop.link2}>
             <Card>
-                <Card.Img src={mar5}/>
+                <Card.Img alt={prop.link2} src={mar5}/>
             </Card>
             </Link>
     </CardColumns>

@@ -13,12 +13,12 @@ const Hero = (prop) => (
                     <h1 className='display-4'>{prop.display}</h1>
                     <p className='lead'>{prop.lead}</p>
                     <Link to={'/'+prop.link1} className={prop.link1||'d-none'}>
-                    <Button style={{backgroundColor:'#DD0000'}} variant='danger' className='text-capitalize'>
+                    <Button style={{backgroundColor:'#DD0000'}} variant='danger' className='text-capitalize rounded-pill'>
                         {prop.link1}
                     </Button>
                     </Link>
                     <Link to={'/'+prop.link2} className={prop.link2||'d-none'}>
-                    <Button style={{backgroundColor:'#DD0000'}} variant='danger' className='text-capitalize ml-5'>
+                    <Button style={{backgroundColor:'#DD0000'}} variant='danger' className='text-capitalize ml-5 rounded-pill'>
                         {prop.link2}
                     </Button>
                     </Link>

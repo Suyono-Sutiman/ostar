@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl:`https://ostar.my.id`,
     title: `O-star`,
     description: `Jasa pembuatan website dan marketing`,
     author: `@ostar`,
@@ -16,6 +17,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-preact`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

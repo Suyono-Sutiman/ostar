@@ -8,6 +8,8 @@ import { Container } from "react-bootstrap"
 import Adva from "../components/kelebihan"
 import Sample from '../components/sample'
 import Webwork from "../components/webwork"
+import ListHargaWeb from "../components/listhargaweb"
+import PaketHarga from "../components/paketweb"
 
 const Website = () => (
   <Layout>
@@ -18,6 +20,8 @@ const Website = () => (
     <Container>
       <Adva color='#DD0000' p2='d-none'/>
       <Webwork color='#DD0000'/>
+      <PaketHarga/>
+      <ListHargaWeb/>
       <Sample link1='website'/>
     </Container>
   </Layout>

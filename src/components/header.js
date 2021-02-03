@@ -48,8 +48,8 @@ const Header = (prop) => {
           </Nav.Item>
         </Nav>
           <Button style={{backgroundColor:'#DD0000'}} variant='danger' href={'https://wa.me/62'+prop.phone} 
-          target='blank' className={prop.phone||'d-none'}>
-            Chatting
+          target='blank' className={'rounded-pill '+prop.phone||'d-none'}>
+            Hubungi Sales
           </Button>
       </Navbar.Collapse>
       </Container>
