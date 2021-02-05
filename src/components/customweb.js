@@ -27,7 +27,7 @@ const CustoWeb = () => {
     const hal5 = () => setHal(5)
     const halaman = (design*hal)
     const [kuota, setKuota] = useState(0)
-    const limagb = ()=> setKuota(150)
+    const limagb = ()=> setKuota(300)
     const puluhgb = ()=> setKuota(600)
     const ratusgb = ()=> setKuota(1380)
     const ribugb = ()=> setKuota(1980)

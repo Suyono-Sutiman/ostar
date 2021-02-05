@@ -5,7 +5,7 @@ import CustoWeb from './customweb'
 const PaketHarga = () => {
     return (
         <>
-        <h1 className='h4 text-center mb-3' style={{color:'#DD0000'}}>Pilihan Paket</h1>
+        <h1 className='h4 text-center mb-3' style={{color:'#DD0000'}} id='pilih paket'>Pilihan Paket</h1>
         <Row>
             <Col xs='12' md='6' lg='3' className='mb-3'>
                 <Card border='dark' className='text-center h-100 shadow'>
@@ -13,9 +13,9 @@ const PaketHarga = () => {
                         Cobain
                     </Card.Header>
                     <Card.Body>
-                        <p><s>Rp. 500.000</s>
+                        <p><s>Rp. 425.000</s>
                         <Button style={{backgroundColor:'#141618'}} variant='dark' className='ml-1 rounded-pill'>
-                            Hemat 72%
+                            Hemat 45%
                         </Button>
                         </p>
                         <h2 className='h1 mb-n2'>190.000,-</h2>
@@ -39,9 +39,9 @@ const PaketHarga = () => {
                         UMKM
                     </Card.Header>
                     <Card.Body>
-                        <p><s>Rp. 1.300.000</s>
+                        <p><s>Rp. 1.275.000</s>
                         <Button style={{backgroundColor:'#DD0000'}} variant='danger' className='ml-1 rounded-pill'>
-                            Hemat 43%
+                            Hemat 59%
                         </Button>
                         </p>
                         <h2 className='h1 mb-n2'>750.000,-</h2>
@@ -65,7 +65,7 @@ const PaketHarga = () => {
                         Bisnis
                     </Card.Header>
                     <Card.Body>
-                        <h2 className='h1 mb-n2'>2.680.000,-</h2>
+                        <h2 className='h1 mb-n2'>2.880.000,-</h2>
                         <p>setahun</p>
                         <Button style={{backgroundColor:'#141618'}} variant='dark' className='ml-1 rounded-pill'>
                             Pesan Sekarang
@@ -86,7 +86,7 @@ const PaketHarga = () => {
                         Corporate
                     </Card.Header>
                     <Card.Body>
-                        <h2 className='h1 mb-n2'>4.380.000,-</h2>
+                        <h2 className='h1 mb-n2'>7.330.000,-</h2>
                         <p>setahun</p>
                         <Button style={{backgroundColor:'#141618'}} variant='dark' className='ml-1 rounded-pill'>
                             Pesan Sekarang

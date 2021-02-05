@@ -22,6 +22,11 @@ const Hero = (prop) => (
                         {prop.link2}
                     </Button>
                     </Link>
+                    <Link to={'#'+prop.link3} className={prop.link3||'d-none'}>
+                    <Button style={{backgroundColor:'#DD0000'}} variant='danger' className='text-capitalize rounded-pill'>
+                        {prop.link3}
+                    </Button>
+                    </Link>
                 </Col>
             </Row>
         </Container>
