@@ -8,6 +8,7 @@ import Adva from "../components/kelebihan"
 import Sample from "../components/sample"
 import Marwork from "../components/marwork"
 import PaketMar from "../components/paketmar"
+import Listmar from "../components/listmar"
 
 const Marketing = () => (
   <Layout>
@@ -20,6 +21,7 @@ const Marketing = () => (
       <Adva color='#DD0000' p1='d-none'/>
       <Marwork color='#DD0000'/>
       <PaketMar/>
+      <Listmar/>
       <Sample link2='marketing'/>
     </Container>
   </Layout>
